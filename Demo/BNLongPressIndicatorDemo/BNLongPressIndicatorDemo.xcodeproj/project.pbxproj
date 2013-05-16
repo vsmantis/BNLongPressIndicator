@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBF5671B1743E50F00A86F57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF5671A1743E50F00A86F57 /* UIKit.framework */; };
+		EBF5671D1743E50F00A86F57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF5671C1743E50F00A86F57 /* Foundation.framework */; };
+		EBF5671F1743E50F00A86F57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF5671E1743E50F00A86F57 /* CoreGraphics.framework */; };
+		EBF567251743E50F00A86F57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBF567231743E50F00A86F57 /* InfoPlist.strings */; };
+		EBF567271743E50F00A86F57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF567261743E50F00A86F57 /* main.m */; };
+		EBF5672B1743E50F00A86F57 /* BNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5672A1743E50F00A86F57 /* BNAppDelegate.m */; };
+		EBF5672D1743E50F00A86F57 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF5672C1743E50F00A86F57 /* Default.png */; };
+		EBF5672F1743E50F00A86F57 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF5672E1743E50F00A86F57 /* Default@2x.png */; };
+		EBF567311743E50F00A86F57 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBF567301743E50F00A86F57 /* Default-568h@2x.png */; };
+		EBF5673A1743E5D600A86F57 /* BNDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF567391743E5D600A86F57 /* BNDemoViewController.m */; };
+		EBF5673D1743E5F900A86F57 /* BNLongPressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5673C1743E5F900A86F57 /* BNLongPressIndicator.m */; };
+		EBF5673F1743E83500A86F57 /* BNDemoViewController-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF5673E1743E83500A86F57 /* BNDemoViewController-iPhone.xib */; };
+		EBF567411743E85900A86F57 /* BNDemoViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF567401743E85900A86F57 /* BNDemoViewController-iPad.xib */; };
+		EBF567441743FEE400A86F57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF567421743FECB00A86F57 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBF567171743E50F00A86F57 /* BNLongPressIndicatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNLongPressIndicatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF5671A1743E50F00A86F57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBF5671C1743E50F00A86F57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBF5671E1743E50F00A86F57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBF567221743E50F00A86F57 /* BNLongPressIndicatorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNLongPressIndicatorDemo-Info.plist"; sourceTree = "<group>"; };
+		EBF567241743E50F00A86F57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBF567261743E50F00A86F57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBF567281743E50F00A86F57 /* BNLongPressIndicatorDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BNLongPressIndicatorDemo-Prefix.pch"; sourceTree = "<group>"; };
+		EBF567291743E50F00A86F57 /* BNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNAppDelegate.h; sourceTree = "<group>"; };
+		EBF5672A1743E50F00A86F57 /* BNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNAppDelegate.m; sourceTree = "<group>"; };
+		EBF5672C1743E50F00A86F57 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EBF5672E1743E50F00A86F57 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EBF567301743E50F00A86F57 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EBF567381743E5D600A86F57 /* BNDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDemoViewController.h; sourceTree = "<group>"; };
+		EBF567391743E5D600A86F57 /* BNDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDemoViewController.m; sourceTree = "<group>"; };
+		EBF5673B1743E5F900A86F57 /* BNLongPressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNLongPressIndicator.h; path = ../../../../BNLongPressIndicator/BNLongPressIndicator.h; sourceTree = "<group>"; };
+		EBF5673C1743E5F900A86F57 /* BNLongPressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNLongPressIndicator.m; path = ../../../../BNLongPressIndicator/BNLongPressIndicator.m; sourceTree = "<group>"; };
+		EBF5673E1743E83500A86F57 /* BNDemoViewController-iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "BNDemoViewController-iPhone.xib"; sourceTree = "<group>"; };
+		EBF567401743E85900A86F57 /* BNDemoViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "BNDemoViewController-iPad.xib"; sourceTree = "<group>"; };
+		EBF567421743FECB00A86F57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF567141743E50E00A86F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF5671B1743E50F00A86F57 /* UIKit.framework in Frameworks */,
+				EBF567441743FEE400A86F57 /* QuartzCore.framework in Frameworks */,
+				EBF5671D1743E50F00A86F57 /* Foundation.framework in Frameworks */,
+				EBF5671F1743E50F00A86F57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBF5670E1743E50E00A86F57 = {
+			isa = PBXGroup;
+			children = (
+				EBF567201743E50F00A86F57 /* BNLongPressIndicatorDemo */,
+				EBF567191743E50F00A86F57 /* Frameworks */,
+				EBF567181743E50F00A86F57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF567181743E50F00A86F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF567171743E50F00A86F57 /* BNLongPressIndicatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF567191743E50F00A86F57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF567421743FECB00A86F57 /* QuartzCore.framework */,
+				EBF5671A1743E50F00A86F57 /* UIKit.framework */,
+				EBF5671C1743E50F00A86F57 /* Foundation.framework */,
+				EBF5671E1743E50F00A86F57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF567201743E50F00A86F57 /* BNLongPressIndicatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EBF567371743E5B200A86F57 /* BNLongPressIndicator */,
+				EBF567291743E50F00A86F57 /* BNAppDelegate.h */,
+				EBF5672A1743E50F00A86F57 /* BNAppDelegate.m */,
+				EBF567211743E50F00A86F57 /* Supporting Files */,
+				EBF567381743E5D600A86F57 /* BNDemoViewController.h */,
+				EBF567391743E5D600A86F57 /* BNDemoViewController.m */,
+				EBF5673E1743E83500A86F57 /* BNDemoViewController-iPhone.xib */,
+				EBF567401743E85900A86F57 /* BNDemoViewController-iPad.xib */,
+			);
+			path = BNLongPressIndicatorDemo;
+			sourceTree = "<group>";
+		};
+		EBF567211743E50F00A86F57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF567221743E50F00A86F57 /* BNLongPressIndicatorDemo-Info.plist */,
+				EBF567231743E50F00A86F57 /* InfoPlist.strings */,
+				EBF567261743E50F00A86F57 /* main.m */,
+				EBF567281743E50F00A86F57 /* BNLongPressIndicatorDemo-Prefix.pch */,
+				EBF5672C1743E50F00A86F57 /* Default.png */,
+				EBF5672E1743E50F00A86F57 /* Default@2x.png */,
+				EBF567301743E50F00A86F57 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF567371743E5B200A86F57 /* BNLongPressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5673B1743E5F900A86F57 /* BNLongPressIndicator.h */,
+				EBF5673C1743E5F900A86F57 /* BNLongPressIndicator.m */,
+			);
+			path = BNLongPressIndicator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF567161743E50E00A86F57 /* BNLongPressIndicatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF567341743E50F00A86F57 /* Build configuration list for PBXNativeTarget "BNLongPressIndicatorDemo" */;
+			buildPhases = (
+				EBF567131743E50E00A86F57 /* Sources */,
+				EBF567141743E50E00A86F57 /* Frameworks */,
+				EBF567151743E50E00A86F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNLongPressIndicatorDemo;
+			productName = BNLongPressIndicatorDemo;
+			productReference = EBF567171743E50F00A86F57 /* BNLongPressIndicatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF5670F1743E50E00A86F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BNOTIONS;
+			};
+			buildConfigurationList = EBF567121743E50E00A86F57 /* Build configuration list for PBXProject "BNLongPressIndicatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBF5670E1743E50E00A86F57;
+			productRefGroup = EBF567181743E50F00A86F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF567161743E50E00A86F57 /* BNLongPressIndicatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF567151743E50E00A86F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF567251743E50F00A86F57 /* InfoPlist.strings in Resources */,
+				EBF5672D1743E50F00A86F57 /* Default.png in Resources */,
+				EBF5672F1743E50F00A86F57 /* Default@2x.png in Resources */,
+				EBF567311743E50F00A86F57 /* Default-568h@2x.png in Resources */,
+				EBF5673F1743E83500A86F57 /* BNDemoViewController-iPhone.xib in Resources */,
+				EBF567411743E85900A86F57 /* BNDemoViewController-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF567131743E50E00A86F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF567271743E50F00A86F57 /* main.m in Sources */,
+				EBF5672B1743E50F00A86F57 /* BNAppDelegate.m in Sources */,
+				EBF5673A1743E5D600A86F57 /* BNDemoViewController.m in Sources */,
+				EBF5673D1743E5F900A86F57 /* BNLongPressIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBF567231743E50F00A86F57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF567241743E50F00A86F57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF567321743E50F00A86F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBF567331743E50F00A86F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF567351743E50F00A86F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNLongPressIndicatorDemo/BNLongPressIndicatorDemo-Prefix.pch";
+				INFOPLIST_FILE = "BNLongPressIndicatorDemo/BNLongPressIndicatorDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBF567361743E50F00A86F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNLongPressIndicatorDemo/BNLongPressIndicatorDemo-Prefix.pch";
+				INFOPLIST_FILE = "BNLongPressIndicatorDemo/BNLongPressIndicatorDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF567121743E50E00A86F57 /* Build configuration list for PBXProject "BNLongPressIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF567321743E50F00A86F57 /* Debug */,
+				EBF567331743E50F00A86F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF567341743E50F00A86F57 /* Build configuration list for PBXNativeTarget "BNLongPressIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF567351743E50F00A86F57 /* Debug */,
+				EBF567361743E50F00A86F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF5670F1743E50E00A86F57 /* Project object */;
+}
